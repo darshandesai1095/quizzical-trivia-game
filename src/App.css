@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: "Roboto";
+}
+
+.App {
+    height: 100vh;
+    background: linear-gradient(rgba(202, 240, 248, 0), rgba(202, 240, 248, 0.5));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.landing-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #21295c;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.start-button {
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid #21295c;
+    background-color: #21295c;
+    border-radius: 15px;
+    padding: 10px 24px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 20px;
+}
+
+.start-button:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.card {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+}
+
+.card__question {
+    color: #21295c;
+    margin-bottom: 10px;
+}
+
+.card__answer {
+    display: inline-block;
+    border: 1px solid #21295c;
+    border-radius: 15px;
+    padding: 6px 15px;
+    margin: 5px;
+    color: #21295c;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: transform 0.2s;
+}
+
+.card__answer:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+.outcome-block {
+    display: flex;
+}
+
+.check {
+    display: flex;
+    margin: 20px auto;
+    font-weight: 900;
+    color: #21295c;
+}
+
+.result {
+    display: inline-block;
+    padding-left: auto;
+    margin: 20px auto;
+}
+
+.final-score {
+    color: #21295c;
+    font-weight: 900;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.check-button,
+.play-again-button {
+    display: inline-block;
+    border: 1px solid #21295c;
+    background-color: #21295c;
+    border-radius: 15px;
+    padding: 8px 20px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.check-button {
+    margin: 0 auto;
+}
+
+.check-button:hover,
+.play-again-button:hover {
+    transform: scale(1.07);
+}
