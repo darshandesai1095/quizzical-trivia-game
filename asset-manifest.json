@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quizzical-trivia-game/static/css/main.43306fde.css",
+    "main.js": "/quizzical-trivia-game/static/js/main.2d4de13d.js",
+    "static/js/787.fa62f795.chunk.js": "/quizzical-trivia-game/static/js/787.fa62f795.chunk.js",
+    "index.html": "/quizzical-trivia-game/index.html",
+    "main.43306fde.css.map": "/quizzical-trivia-game/static/css/main.43306fde.css.map",
+    "main.2d4de13d.js.map": "/quizzical-trivia-game/static/js/main.2d4de13d.js.map",
+    "787.fa62f795.chunk.js.map": "/quizzical-trivia-game/static/js/787.fa62f795.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43306fde.css",
+    "static/js/main.2d4de13d.js"
+  ]
+}
