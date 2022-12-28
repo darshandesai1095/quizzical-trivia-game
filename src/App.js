@@ -28,7 +28,6 @@ function App() {
         const url = `https://opentdb.com/api.php?amount=5&type=multiple`
         const response = await fetch(url)
         const data = await response.json()
-        //console.log(data.results)
 
         //array of 5 objects [{0},{1},...{4}] i.e. 5 trivia blocks
         setTriviaData(data.results.map((ques, index) => ({
@@ -44,7 +43,7 @@ function App() {
         })))    
       }
 
-      fetchData()//.then(console.log(triviaData))
+      fetchData()
       // eslint-disable-next-line
     }, [startQuiz, playAgain])
 
