@@ -45,7 +45,7 @@ function App() {
 
       fetchData()
       // eslint-disable-next-line
-    }, [startQuiz, playAgain])
+    }, [playAgain])
 
   // toggle clicked state when an answer is clicked
   const toggleAnswer = (id, index) => {
