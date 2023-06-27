@@ -14,4 +14,4 @@ React JS, Fetch API
 <img width="700" alt="Quiz2" src="https://github.com/darshandesai1095/quizzical-trivia-game/assets/43254178/b8510df2-e71f-4eee-81e1-94bafb4c4421">
 
 ### Contact Information
-Email: darshandesai1095@gmail.com
+Email: darshandesai1995@gmail.com
